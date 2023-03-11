@@ -1,0 +1,36 @@
+class program {
+ define turnright()
+  {
+   iterate(3)
+   turnleft();
+  }
+  define avanza()
+  {
+   iterate(6)
+   move();
+  }
+  define recojeZumbador()
+  {
+   pickbeeper();
+  }
+  define e()
+  {
+   move();
+  }
+    program () 
+    {
+     avanza();
+     turnright();
+     recojeZumbador();
+     e();
+     recojeZumbador();
+     e();
+     recojeZumbador();
+     e();
+     recojeZumbador();
+     e();
+     recojeZumbador();
+        // TODO poner codigo aqui
+        turnoff();
+    }
+}

@@ -1,0 +1,32 @@
+ 
+        // Ejercicio 5: v #2
+       class program {
+       void busscaMultiplesZumbadores()
+       {
+        pickbeeper();
+         if(notNextToABeeper)
+         {
+           putbeeper();
+         }
+       }
+        void dejaExactamenteUnZumbador()
+        {
+          if(notNextToABeeper)
+          {
+           putbeeper();
+           }
+           else
+           {
+             buscaMultiplesZumbadores()
+            }
+           }
+           program()
+           {
+           iterate(14)
+           {
+            dejaExactamenteUnZumbador();
+            move();
+          }
+            turnoff();
+      }
+    }

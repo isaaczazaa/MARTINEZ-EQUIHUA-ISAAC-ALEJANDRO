@@ -1,0 +1,55 @@
+class program {
+  void turnright()
+  {
+   iterate(3)
+   turnleft();
+  }
+   define fill()
+   {
+    putbeeper();
+    move();
+    putbeeper();
+    move();
+    putbeeper();
+    move();
+    putbeeper();
+   }
+    define regresa()
+    {
+     turnleft();
+     turnleft();
+     move();
+     move();
+     move();
+    }
+     define siguiente()
+     {
+      turnleft();
+      move();
+      turnleft();
+     }
+  
+    program () {
+     fill();
+     regresa();
+     siguiente();
+     
+       fill();
+     regresa();
+     siguiente();
+     
+       fill();
+     regresa();
+     siguiente();
+     
+       fill();
+     regresa();
+     siguiente();
+     
+     
+     fill();
+     
+  
+        turnoff();
+    }
+}

@@ -1,0 +1,13 @@
+class program {
+   define corre()
+   {
+    iterate(10)
+    move();
+   }
+    program ()
+    {
+     corre();
+        // TODO poner codigo aqui
+        turnoff();
+    }
+}

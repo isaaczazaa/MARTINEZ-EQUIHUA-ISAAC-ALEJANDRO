@@ -1,0 +1,22 @@
+class program {
+  define turnright()
+  {
+   iterate(3)
+   turnleft();
+  }
+   define avanza()
+   {
+    move();
+    turnright();
+    move();
+    turnleft();
+   
+   } 
+    program () {
+    avanza();
+    avanza();
+    avanza();
+        // TODO poner codigo aqui
+        turnoff();
+    }
+}

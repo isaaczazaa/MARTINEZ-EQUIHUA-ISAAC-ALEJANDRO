@@ -1,0 +1,29 @@
+    // Ejercicio 11: Define una nueva instrucción 
+    // que haga que Karel ponga "n" zumbadores en donde 
+    //se encuentra, pero si "n" es cero, recoja 1 zumbador.
+
+class program
+{
+  void avanzaSiNoEsCero (n)
+  {
+
+     if ( iszero(n) )
+     {
+      pickbeeper();
+    }
+
+   else
+   {
+      iterate (n)
+      {
+         putbeeper();
+      }
+   }
+
+ }
+    program () 
+    {
+      avanzaSiNoEsCero(10);
+        turnoff();
+    }
+}

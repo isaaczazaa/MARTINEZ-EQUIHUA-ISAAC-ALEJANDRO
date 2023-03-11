@@ -1,0 +1,38 @@
+       //Ejercicio 9: Escribe una nueva instrucción que avance a Karel
+      // el número de veces que se le mande como parámetro. Debes de evitar
+     //  que Karel choque con alguna pared.
+       
+class program 
+  {
+     void turnright()
+       {
+        iterate(3)
+        turnleft();
+      } 
+    void avanza(i)
+    {
+     iterate(i)
+      {
+     if(frontIsBlocked)
+     {
+      turnleft();
+      move();
+      turnright();
+      move();
+      turnright();
+      move();
+      turnleft();
+     }
+   else
+     {
+      move();
+     }
+    }
+   }
+    program () 
+     {
+      avanza(20);
+       turnright(); 
+        turnoff();
+    }
+}
